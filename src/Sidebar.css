@@ -1,0 +1,23 @@
+.sidebar{
+    flex: 0.22;
+    padding: 12px 0;
+    background-color: rgb(33,33,33);
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: rgb(56,56,56);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar > h4 {
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Roboto, Arial, sans-serif;
+    letter-spacing: 0.007px;
+    margin-top: 16px;
+}

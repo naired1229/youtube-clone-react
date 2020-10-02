@@ -1,0 +1,53 @@
+.searchPage {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    flex: 0.8;
+    background-color: rgb(15,15,15);
+    padding: 20px 20px;
+    color: white;
+}
+
+.searchPage_tuneIcon {
+    color: white;
+}
+
+.searchPage_filter {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+}
+
+.searchPage_filter > h2 {
+    margin-left: 10px;
+}
+
+.searchPage > hr {
+    height: 1px;
+    border: 0;
+    background-color: rgb(56,56,56);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.searchPage > h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.searchPage > p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #AAAAAA;
+}
+.searchPage_videoPlaylist {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 10px;
+    margin: 20px 0;
+}
+
+.searchPage_videoPlaylist .searchPage_video{
+    border: 1px solid white;
+}
